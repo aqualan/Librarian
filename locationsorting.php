@@ -1,4 +1,4 @@
-n is the second token number.
+// n is the second token number.
 
 function P () {
 	if (n <= 1) then
