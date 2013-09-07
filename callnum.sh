@@ -20,5 +20,24 @@ call_number () {
 	echo $(get_info) | grep -o "Call no."* | sed 's|<| < |g' | sed -e 's/^.*no.: //g;s/ div*$//g' | sed 's/ <.*$//g'
 }
 
-echo "The call number is:" $(call_number)
-	
+# echo "The call number is:" $(call_number)
+callNum=$(call_number)
+
+location_info=$(get_info | grep -o "Van Pelt Library")
+
+get_location () {
+	if [[ $location_info == "Van Pelt Library" ]] 
+	then
+		location_info=$location_info
+	else
+		location_info="N/A"
+	fi
+}
+
+get_location
+
+# echo "The location is:" $location_info
+location=$location_info
+
+# Echo result for return.
+echo $callNum,$location
