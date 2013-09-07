@@ -1,4 +1,4 @@
 Librarian
 =========
 
-PennApps F2013.
+A PennApps F2013 project by Halla Bearden (SAS '17'), Cliff Kao (SEAS '16'), Andrew Harper (PITT '15'), and Alan Aquino (SEAS '16').
