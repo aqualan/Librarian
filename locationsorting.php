@@ -2,27 +2,27 @@
 // n is the second token number.
 
 function P ($n) {
-	if ($n <= 1) then
-		echo "SOUTH,28";
-	else if ($n <= 25) then
+	if ($n <= 1) {
+		echo "SOUTH,28"; elseif ($n <= 25) {
 		echo "SOUTH,27";
-	else if ($n <= 51) then
+	} elseif ($n <= 51) {
 		echo "SOUTH,26";
-	else if ($n <= 105) then
+	} elseif ($n <= 105) {
 		echo "SOUTH,25";
-	else if ($n <= 211) then
+	} elseif ($n <= 211) {
 		echo "SOUTH,24";
+	}
 	else
 		echo "SOUTH,23";
 }
 
 function PA ($n) {
-	if ($n <= 56) then
-		echo "SOUTH,22";
-	else if ($n <= 3539) then
+	if ($n <= 56) {
+		echo "SOUTH,22"; elseif ($n <= 3539) {
 		echo "SOUTH,21";
-	else if ($n <= 5000) then
+	} elseif ($n <= 5000) {
 		echo "SOUTH,20";
+	}
 	else
 		echo "SOUTH,19";
 }
@@ -32,9 +32,9 @@ function PB ($n) {
 }
 
 function PB ($n) {
-	if ($n < 1074) then
+	if ($n < 1074) {
 		echo "SOUTH,18";
-	if ($n <= 2625) then
+	if ($n <= 2625) {
 		echo "SOUTH,17";
 	else
 		echo "SOUTH,16";
@@ -52,25 +52,25 @@ function PF ($n) {
 }
 
 function PG ($n) {
-	if ($n <= 2947) then
-		echo "SOUTH,13";
-	else if ($n <= 3462) then
+	if ($n <= 2947) {
+		echo "SOUTH,13"; elseif ($n <= 3462) {
 		echo "SOUTH,12";
-	else if ($n <= 3492) then
+	} elseif ($n <= 3492) {
 		echo "SOUTH,11";
+	}
 	else
 		echo "SOUTH,10";
 }
 
 function PJ ($n) {
-	if ($n <= 3701) then
-		echo "SOUTH,10";
-	else if ($n < 5024) then
+	if ($n <= 3701) {
+		echo "SOUTH,10"; elseif ($n < 5024) {
 		echo "SOUTH,9";
-	else if ($n < 5055) then
+	} elseif ($n < 5055) {
 		echo "SOUTH,8";
-	else if ($n < 7814) then
+	} elseif ($n < 7814) {
 		echo "SOUTH,7";
+	}
 	else
 		echo "SOUTH,6";
 }
@@ -80,210 +80,210 @@ function PI ($n) {
 }
 
 function PK ($n) {
-	if ($n <= 1730) then
-		echo "SOUTH,5";
-	else if ($n <= 2165) then
+	if ($n <= 1730) {
+		echo "SOUTH,5"; elseif ($n <= 2165) {
 		echo "SOUTH,4";
-	else if ($n <= 2418) then
+	} elseif ($n <= 2418) {
 		echo "SOUTH,3";
-	else if ($n <= 3621) then
+	} elseif ($n <= 3621) {
 		echo "SOUTH,2";
-	else if ($n <= 5013) then
+	} elseif ($n <= 5013) {
 		echo "MIDDLE,1";
+	}
 	else
 		echo "MIDDLE,2";
 }
 
 function PL ($n) {
-	if ($n <= 2442) then
-		echo "NORTH,2";
-	else if ($n <= 4758) then
+	if ($n <= 2442) {
+		echo "NORTH,2"; elseif ($n <= 4758) {
 		echo "MIDDLE,2";
+	}
 	else
 		echo "NORTH,3";
 }
 
 function PM ($n) {
-	if ($n <= 6301) then
+	if ($n <= 6301) {
 		echo "MIDDLE,3";
 	else 
 		echo "NORTH,3";
 }
 
 function PN ($n) {
-	if ($n <= 80) then
-		echo "NORTH,4";
-	else if ($n <= 147) then
+	if ($n <= 80) {
+		echo "NORTH,4"; elseif ($n <= 147) {
 		echo "MIDDLE,4";
-	else if ($n <= 1849) then
+	} elseif ($n <= 1849) {
 		echo "NORTH,5";
-	else if ($n <= 1991) then
+	} elseif ($n <= 1991) {
 		echo "MIDDLE,5";
-	else if ($n <= 1998) then
+	} elseif ($n <= 1998) {
 		echo "NORTH,6";
-	else if ($n <= 2919) then
+	} elseif ($n <= 2919) {
 		echo "MIDDLE,6";
-	else if ($n <= 4105) then
+	} elseif ($n <= 4105) {
 		echo "NORTH,7";
-	else if ($n <= 6149) then
+	} elseif ($n <= 6149) {
 		echo "NORTH,8";
+	}
 	else
 		echo "MIDDLE,7";
 }
 
 function PQ ($n) {
-	if ($n < 1812) then
-		echo "NORTH,8";
-	else if ($n <= 1812) then
+	if ($n < 1812) {
+		echo "NORTH,8"; elseif ($n <= 1812) {
 		echo "NORTH,9";
-	else if ($n <= 1912
+	} elseif ($n <= {
 		echo "MIDDLE,8"
-	else if ($n <= 2391) then
+	} elseif ($n <= 2391) {
 		echo "MIDDLE,9";
-	else if ($n <= 2603) then
+	} elseif ($n <= 2603) {
 		echo "NORTH,10";
-	else if ($n <= 2662) then
+	} elseif ($n <= 2662) {
 		echo "MIDDLE,10";
-	else if ($n <= 2673) then
+	} elseif ($n <= 2673) {
 		echo "NORTH,11";
-	else if ($n <= 4098) then
+	} elseif ($n <= 4098) {
 		echo "MIDDLE,11";
-	else if ($n <= 4332) then
+	} elseif ($n <= 4332) {
 		echo "NORTH,12";
-	else if ($n <= 4841) then
+	} elseif ($n <= 4841) {
 		echo "MIDDLE,12";
-	else if ($n <= 4901) then
+	} elseif ($n <= 4901) {
 		echo "NORTH,13";
-	else if ($n <= 6436) then
+	} elseif ($n <= 6436) {
 		echo "MIDDLE,13";
-	else if ($n <= 6603) then
+	} elseif ($n <= 6603) {
 		echo "NORTH,14";
-	else if ($n < 7082) then
+	} elseif ($n < 7082) {
 		echo "MIDDLE,14";
-	else if ($n < 7298) then
+	} elseif ($n < 7298) {
 		echo "NORTH,15";
-	else if ($n < 7798) then
+	} elseif ($n < 7798) {
 		echo "MIDDLE,15";
-	else if ($n <= 9098) then
+	} elseif ($n <= 9098) {
 		echo "NORTH,16";
+	}
 	else
 		echo "MIDDLE,16";
 }
 
 function PR ($n) {
-	if ($n < 275) then
-		echo "NORTH,17";
-	else if ($n < 730) then
+	if ($n < 275) {
+		echo "NORTH,17"; elseif ($n < 730) {
 		echo "MIDDLE,16";
-	else if ($n < 1119) then
+	} elseif ($n < 1119) {
 		echo "MIDDLE,17";
-	else if ($n <= 1309) then
+	} elseif ($n <= 1309) {
 		echo "NORTH,18";
-	else if ($n < 2935) then
+	} elseif ($n < 2935) {
 		echo "MIDDLE,18";
-	else if ($n <= 3346) then
+	} elseif ($n <= 3346) {
 		echo "NORTH,19";
-	else if ($n < 4300) then
+	} elseif ($n < 4300) {
 		echo "MIDDLE,19";
-	else if ($n <= 4984) then
+	} elseif ($n <= 4984) {
 		echo "NORTH,20";
-	else if ($n < 5403) then
+	} elseif ($n < 5403) {
 		echo "MIDDLE,20";
-	else if ($n <= 5869) then
+	} elseif ($n <= 5869) {
 		echo "NORTH,21";
-	else if ($n < 6027) then
+	} elseif ($n < 6027) {
 		echo "MIDDLE,21";
-	else if ($n <= 6045) then
+	} elseif ($n <= 6045) {
 		echo "NORTH,22";
-	else if ($n < 6063) then
+	} elseif ($n < 6063) {
 		echo "MIDDLE,22";
-	else if ($n <= 6070) then
+	} elseif ($n <= 6070) {
 		echo "NORTH,23";
-	else if ($n < 9369) then
+	} elseif ($n < 9369) {
 		echo "MIDDLE,23";
+	}
 	else
 		echo "NORTH,24";
 }
 
 function PS ($n) {
-	if ($n < 69) then
-		echo "MIDDLE,24";
-	else if ($n <= 423) then
+	if ($n < 69) {
+		echo "MIDDLE,24"; elseif ($n <= 423) {
 		echo "NORTH,25";
-	else if ($n < 648) then
+	} elseif ($n < 648) {
 		echo "MIDDLE,25";
-	else if ($n <= 1300) then
+	} elseif ($n <= 1300) {
 		echo "NORTH,26";
-	else if ($n < 2410) then
+	} elseif ($n < 2410) {
 		echo "MIDDLE,26";
-	else if ($n <= 3281) then
+	} elseif ($n <= 3281) {
 		echo "NORTH,27";
-	else if ($n < 3511) then
+	} elseif ($n < 3511) {
 		echo "MIDDLE,27";
-	else if ($n <= 3517) then
+	} elseif ($n <= 3517) {
 		echo "NORTH,28";
-	else if ($n < 3537) then
+	} elseif ($n < 3537) {
 		echo "MIDDLE,33";
-	else if ($n <= 3545) then
+	} elseif ($n <= 3545) {
 		echo "NORTH,35";
-	else if ($n < 3554) then
+	} elseif ($n < 3554) {
 		echo "MIDDLE,34";
-	else if ($n <= 3556) then
+	} elseif ($n <= 3556) {
 		echo "NORTH,36";
-	else if ($n < 3562) then
+	} elseif ($n < 3562) {
 		echo "MIDDLE,35";
-	else if ($n <= 3563) then
+	} elseif ($n <= 3563) {
 		echo "NORTH,37";
-	else if ($n < 3569) then
+	} elseif ($n < 3569) {
 		echo "MIDDLE,36";
-	else if ($n < 3573) then
+	} elseif ($n < 3573) {
 		echo "NORTH,38";
-	else if ($n < 3609) then
+	} elseif ($n < 3609) {
 		echo "MIDDLE,37";
-	else if ($n <= 3613) then
+	} elseif ($n <= 3613) {
 		echo "NORTH,39";
+	}
 	else
 		echo "MIDDLE,38";
 }
 
 function PT ($n) {
-	if ($n <= 67) then
-		echo "MIDDLE,38";
-	else if ($n < 217) then
+	if ($n <= 67) {
+		echo "MIDDLE,38"; elseif ($n < 217) {
 		echo "MIDDLE,39";
-	else if ($n <= 304) then
+	} elseif ($n <= 304) {
 		echo "NORTH,40";
-	else if ($n < 1258) then
+	} elseif ($n < 1258) {
 		echo "MIDDLE,40";
-	else if ($n <= 1419) then
+	} elseif ($n <= 1419) {
 		echo "NORTH,41";
-	else if ($n < 1891) then
+	} elseif ($n < 1891) {
 		echo "MIDDLE,41";
+	}
 	else
 		echo "NORTH,42";
 }
 
 function Z ($n) {
-	if ($n < 120) then
-		echo "MIDDLE,28";
-	else if ($n <= 266) then
+	if ($n < 120) {
+		echo "MIDDLE,28"; elseif ($n <= 266) {
 		echo "NORTH,29";
-	else if ($n < 695) then
+	} elseif ($n < 695) {
 		echo "MIDDLE,29";
-	else if ($n <= 798) then
+	} elseif ($n <= 798) {
 		echo "NORTH,30";
-	else if ($n <= 1201) then
+	} elseif ($n <= 1201) {
 		echo "NORTH,31";
-	else if ($n < 2537) then
+	} elseif ($n < 2537) {
 		echo "MIDDLE,30";
-	else if ($n <= 3201) then
+	} elseif ($n <= 3201) {
 		echo "NORTH,32";
-	else if ($n < 6611) then
+	} elseif ($n < 6611) {
 		echo "MIDDLE,31";
-	else if ($n <= 6621) then
+	} elseif ($n <= 6621) {
 		echo "NORTH,33";
-	else if ($n < 8430) then
+	} elseif ($n < 8430) {
 		echo "MIDDLE,32";
+	}
 	else
 		echo "NORTH,34";
 }
