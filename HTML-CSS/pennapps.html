@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Librarian</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!--link rel="stylesheet" type="text/css" href="css/style.css"/-->
+<link rel="stylesheet" type="text/css" href="css/pennapps.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Welcome to the</h1>
+		<h2>Van Pelt Library!</h2>
+		<div class="white_descript" id="welcome_search">
+			<p>Please enter the title of the book you are looking for.
+					<form action="action.php" method="post" name="book">
+					<p><input type="text" name="book" />  <input type="submit" class="btn btn-primary btn-large"/></p>
+			</p>
+		</div>
+
+		<div class="white_descript" id="found_book">
+			<p>Found it! Your book is in the [E/W] wing on the [#] floor in the [XX] section. Click <a href="third_floor.png" class="url">here</a> to view a map of the floor.
+			</p>
+		</div>
+
+		<div class="white_descript" id="floor_map">
+			<p> <!-- a map of the floor will display. at the bottom it will say -->Click <!-- <a href="shelf map" class="url">here</a>. --> to view a map of the shelf.
+			</p>
+		</div>
+
+		<!-- <?php ?> -->
+		<div class="white_descript" id="shelf_map">
+			<p> <!-- just display the shelf map. maybe include a "back (to floor map)" button for going back to the floor map -->
+		</div>
+		<!-- <?php ?> -->
+
+		<!-- <?php ?> -->
+		<div class="white_descript" id="book_not_available">
+			<p>We're sorry! Your book is not currently available. <!-- what else here?--> 
+			</p>
+		</div>
+		<!-- <?php ?> -->
+
+		<!-- <?php ?> -->
+		<div class="white_descript" id= "book_not_found">
+			<p>We're sorry! We can't find the book that you're looking for in our system. Please make sure that the title is spelled correctly. <!-- should we add a "retry" link?--> 
+			</p>
+		</div>
+		<!-- <?php ?> -->
+
+		<div class="links">
+			<ul id="icons">
+			<li><a href="https://github.com/aqualan/Librarian/blob/master/lib_floor_plans/third_floor.png">
+				<img src="third_floor.png" alt="third_floor"/>
+			</a></li>
+			<!-- <li><a href="url for the floor map">
+				<img src="image source for floor map" alt="what goes here?"/>
+			</a></li> -->
+			<!-- <li><a href="url for the shelf map">
+				<img src="image source for the shelf map" alt="what goes here?"/>
+			</a></li> -->
+		</ul>	
+		</div>
+	</div>
+</html>
+
+
