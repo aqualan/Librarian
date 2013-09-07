@@ -1,15 +1,20 @@
-<?php
-// What to look for
+<?php 
 $search =  htmlspecialchars($_POST['book']);
-//echo $search;
-// Read from file
-$lines = file('library.txt');
-foreach($lines as $line)
-{
-  // Check if the line contains the string we're looking for, and print if it does
-  if(strpos($line, $search) !== false)
-  {
-    echo $line;
-    break 1;
-  }
-}
+
+echo $search;
+//$answer = "./var/www/html/callnum.sh \"http://franklin.library.upenn.edu/record.html?q=build&id=FRANKLIN_3931630&\""
+
+
+
+$sh = "/var/www/html/callnum.sh ";
+
+$escapeSearch = escapeshellcmd($search);
+$escapeSh = escapeshellcmd($sh);
+
+$Book = $escapeSh . $escapeSearch;
+
+$output = shell_exec($Book);
+
+echo $output;
+
+?>
