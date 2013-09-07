@@ -3,7 +3,8 @@
 
 function P ($n) {
 	if ($n <= 1) {
-		echo "SOUTH,28"; elseif ($n <= 25) {
+		echo "SOUTH,28";
+	} elseif ($n <= 25) {
 		echo "SOUTH,27";
 	} elseif ($n <= 51) {
 		echo "SOUTH,26";
@@ -18,7 +19,8 @@ function P ($n) {
 
 function PA ($n) {
 	if ($n <= 56) {
-		echo "SOUTH,22"; elseif ($n <= 3539) {
+		echo "SOUTH,22"; 
+	} elseif ($n <= 3539) {
 		echo "SOUTH,21";
 	} elseif ($n <= 5000) {
 		echo "SOUTH,20";
@@ -34,7 +36,7 @@ function PB ($n) {
 function PB ($n) {
 	if ($n < 1074) {
 		echo "SOUTH,18";
-	if ($n <= 2625) {
+	} elseif ($n <= 2625) {
 		echo "SOUTH,17";
 	else
 		echo "SOUTH,16";
@@ -53,7 +55,8 @@ function PF ($n) {
 
 function PG ($n) {
 	if ($n <= 2947) {
-		echo "SOUTH,13"; elseif ($n <= 3462) {
+		echo "SOUTH,13"; 
+	} elseif ($n <= 3462) {
 		echo "SOUTH,12";
 	} elseif ($n <= 3492) {
 		echo "SOUTH,11";
@@ -64,7 +67,8 @@ function PG ($n) {
 
 function PJ ($n) {
 	if ($n <= 3701) {
-		echo "SOUTH,10"; elseif ($n < 5024) {
+		echo "SOUTH,10";
+	} elseif ($n < 5024) {
 		echo "SOUTH,9";
 	} elseif ($n < 5055) {
 		echo "SOUTH,8";
@@ -81,7 +85,8 @@ function PI ($n) {
 
 function PK ($n) {
 	if ($n <= 1730) {
-		echo "SOUTH,5"; elseif ($n <= 2165) {
+		echo "SOUTH,5"; 
+	} elseif ($n <= 2165) {
 		echo "SOUTH,4";
 	} elseif ($n <= 2418) {
 		echo "SOUTH,3";
@@ -96,7 +101,8 @@ function PK ($n) {
 
 function PL ($n) {
 	if ($n <= 2442) {
-		echo "NORTH,2"; elseif ($n <= 4758) {
+		echo "NORTH,2"; 
+	} elseif ($n <= 4758) {
 		echo "MIDDLE,2";
 	}
 	else
@@ -106,13 +112,14 @@ function PL ($n) {
 function PM ($n) {
 	if ($n <= 6301) {
 		echo "MIDDLE,3";
-	else 
+	} else 
 		echo "NORTH,3";
 }
 
 function PN ($n) {
 	if ($n <= 80) {
-		echo "NORTH,4"; elseif ($n <= 147) {
+		echo "NORTH,4";
+	} elseif ($n <= 147) {
 		echo "MIDDLE,4";
 	} elseif ($n <= 1849) {
 		echo "NORTH,5";
@@ -133,7 +140,8 @@ function PN ($n) {
 
 function PQ ($n) {
 	if ($n < 1812) {
-		echo "NORTH,8"; elseif ($n <= 1812) {
+		echo "NORTH,8"; 
+	} elseif ($n <= 1812) {
 		echo "NORTH,9";
 	} elseif ($n <= {
 		echo "MIDDLE,8"
@@ -172,7 +180,8 @@ function PQ ($n) {
 
 function PR ($n) {
 	if ($n < 275) {
-		echo "NORTH,17"; elseif ($n < 730) {
+		echo "NORTH,17";
+	} elseif ($n < 730) {
 		echo "MIDDLE,16";
 	} elseif ($n < 1119) {
 		echo "MIDDLE,17";
@@ -207,7 +216,8 @@ function PR ($n) {
 
 function PS ($n) {
 	if ($n < 69) {
-		echo "MIDDLE,24"; elseif ($n <= 423) {
+		echo "MIDDLE,24";
+	} elseif ($n <= 423) {
 		echo "NORTH,25";
 	} elseif ($n < 648) {
 		echo "MIDDLE,25";
@@ -248,7 +258,8 @@ function PS ($n) {
 
 function PT ($n) {
 	if ($n <= 67) {
-		echo "MIDDLE,38"; elseif ($n < 217) {
+		echo "MIDDLE,38";
+	} elseif ($n < 217) {
 		echo "MIDDLE,39";
 	} elseif ($n <= 304) {
 		echo "NORTH,40";
@@ -265,7 +276,8 @@ function PT ($n) {
 
 function Z ($n) {
 	if ($n < 120) {
-		echo "MIDDLE,28"; elseif ($n <= 266) {
+		echo "MIDDLE,28";
+	} elseif ($n <= 266) {
 		echo "NORTH,29";
 	} elseif ($n < 695) {
 		echo "MIDDLE,29";
