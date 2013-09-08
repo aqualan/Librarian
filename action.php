@@ -28,6 +28,15 @@ $num = preg_replace("/[^0-9]/","",$arr[0]);
 // Item tag; e.g. PL/PT/etc.
 $tag = preg_replace("/[^A-Z]/","",$arr[0]);
 
-$tag($num);
+$location_data = $tag($num);
+
+// Shelf location: northern/middle/southern
+$shelf = preg_replace("/[^A-Z]/", "", $location_data);
+
+// Row number
+$rownum = preg_replace("/[^[0-9]/", "", $location_data);
+
+echo $rownum;
+echo $shelf;
 
 ?>
