@@ -2,305 +2,305 @@
 
 function P ($n) {
 	if ($n <= 1) {
-		echo "southern,28";
+		return "southern,28";
 	} elseif ($n <= 25) {
-		echo "southern,27";
+		return "southern,27";
 	} elseif ($n <= 51) {
-		echo "southern,26";
+		return "southern,26";
 	} elseif ($n <= 105) {
-		echo "southern,25";
+		return "southern,25";
 	} elseif ($n <= 211) {
-		echo "southern,24";
+		return "southern,24";
 	}
 	else
-		echo "southern,23";
+		return "southern,23";
 }
 
 function PA ($n) {
 	if ($n <= 56) {
-		echo "southern,22"; 
+		return "southern,22"; 
 	} elseif ($n <= 3539) {
-		echo "southern,21";
+		return "southern,21";
 	} elseif ($n <= 5000) {
-		echo "southern,20";
+		return "southern,20";
 	}
 	else
-		echo "southern,19";
+		return "southern,19";
 }
 
 function PB ($n) {
-	echo "southern,18";
+	return "southern,18";
 }
 
 function PC ($n) {
 	if ($n < 1074) {
-		echo "southern,18";
+		return "southern,18";
 	} elseif ($n <= 2625) {
-		echo "southern,17";
+		return "southern,17";
 	} else
-		echo "southern,16";
+		return "southern,16";
 }
 function PD ($n) {
-	echo "southern,16";
+	return "southern,16";
 }
 
 function PE ($n) {
-	echo "southern,15";
+	return "southern,15";
 }
 
 function PF ($n) {
-	echo "southern,14";
+	return "southern,14";
 }
 
 function PG ($n) {
 	if ($n <= 2947) {
-		echo "southern,13"; 
+		return "southern,13"; 
 	} elseif ($n <= 3462) {
-		echo "southern,12";
+		return "southern,12";
 	} elseif ($n <= 3492) {
-		echo "southern,11";
+		return "southern,11";
 	}
 	else
-		echo "southern,10";
+		return "southern,10";
 }
 
 function PJ ($n) {
 	if ($n <= 3701) {
-		echo "southern,10";
+		return "southern,10";
 	} elseif ($n < 5024) {
-		echo "southern,9";
+		return "southern,9";
 	} elseif ($n < 5055) {
-		echo "southern,8";
+		return "southern,8";
 	} elseif ($n < 7814) {
-		echo "southern,7";
+		return "southern,7";
 	}
 	else
-		echo "southern,6";
+		return "southern,6";
 }
 
 function PII ($n) {
-	echo "southern,1";
+	return "southern,1";
 }
 
 function PK ($n) {
 	if ($n <= 1730) {
-		echo "southern,5"; 
+		return "southern,5"; 
 	} elseif ($n <= 2165) {
-		echo "southern,4";
+		return "southern,4";
 	} elseif ($n <= 2418) {
-		echo "southern,3";
+		return "southern,3";
 	} elseif ($n <= 3621) {
-		echo "southern,2";
+		return "southern,2";
 	} elseif ($n <= 5013) {
-		echo "middle,1";
+		return "middle,1";
 	}
 	else
-		echo "middle,2";
+		return "middle,2";
 }
 
 function PL ($n) {
 	if ($n <= 2442) {
-		echo "northern,2"; 
+		return "northern,2"; 
 	} elseif ($n <= 4758) {
-		echo "middle,2";
+		return "middle,2";
 	}
 	else
-		echo "northern,3";
+		return "northern,3";
 }
 
 function PM ($n) {
 	if ($n <= 6301) {
-		echo "middle,3";
+		return "middle,3";
 	} else 
-		echo "northern,3";
+		return "northern,3";
 }
 
 function PN ($n) {
 	if ($n <= 80) {
-		echo "northern,4";
+		return "northern,4";
 	} elseif ($n <= 147) {
-		echo "middle,4";
+		return "middle,4";
 	} elseif ($n <= 1849) {
-		echo "northern,5";
+		return "northern,5";
 	} elseif ($n <= 1991) {
-		echo "middle,5";
+		return "middle,5";
 	} elseif ($n <= 1998) {
-		echo "northern,6";
+		return "northern,6";
 	} elseif ($n <= 2919) {
-		echo "middle,6";
+		return "middle,6";
 	} elseif ($n <= 4105) {
-		echo "northern,7";
+		return "northern,7";
 	} elseif ($n <= 6149) {
-		echo "northern,8";
+		return "northern,8";
 	}
 	else
-		echo "middle,7";
+		return "middle,7";
 }
 
 function PQ ($n) {
 	if ($n < 1812) {
-		echo "northern,8"; 
+		return "northern,8"; 
 	} elseif ($n <= 1812) {
-		echo "northern,9";
+		return "northern,9";
 	} elseif ($n <= 1912) {
-		echo "middle,8";
+		return "middle,8";
 	} elseif ($n <= 2391) {
-		echo "middle,9";
+		return "middle,9";
 	} elseif ($n <= 2603) {
-		echo "northern,10";
+		return "northern,10";
 	} elseif ($n <= 2662) {
-		echo "middle,10";
+		return "middle,10";
 	} elseif ($n <= 2673) {
-		echo "northern,11";
+		return "northern,11";
 	} elseif ($n <= 4098) {
-		echo "middle,11";
+		return "middle,11";
 	} elseif ($n <= 4332) {
-		echo "northern,12";
+		return "northern,12";
 	} elseif ($n <= 4841) {
-		echo "middle,12";
+		return "middle,12";
 	} elseif ($n <= 4901) {
-		echo "northern,13";
+		return "northern,13";
 	} elseif ($n <= 6436) {
-		echo "middle,13";
+		return "middle,13";
 	} elseif ($n <= 6603) {
-		echo "northern,14";
+		return "northern,14";
 	} elseif ($n < 7082) {
-		echo "middle,14";
+		return "middle,14";
 	} elseif ($n < 7298) {
-		echo "northern,15";
+		return "northern,15";
 	} elseif ($n < 7798) {
-		echo "middle,15";
+		return "middle,15";
 	} elseif ($n <= 9098) {
-		echo "northern,16";
+		return "northern,16";
 	}
 	else
-		echo "middle,16";
+		return "middle,16";
 }
 
 function PR ($n) {
 	if ($n < 275) {
-		echo "northern,17";
+		return "northern,17";
 	} elseif ($n < 730) {
-		echo "middle,16";
+		return "middle,16";
 	} elseif ($n < 1119) {
-		echo "middle,17";
+		return "middle,17";
 	} elseif ($n <= 1309) {
-		echo "northern,18";
+		return "northern,18";
 	} elseif ($n < 2935) {
-		echo "middle,18";
+		return "middle,18";
 	} elseif ($n <= 3346) {
-		echo "northern,19";
+		return "northern,19";
 	} elseif ($n < 4300) {
-		echo "middle,19";
+		return "middle,19";
 	} elseif ($n <= 4984) {
-		echo "northern,20";
+		return "northern,20";
 	} elseif ($n < 5403) {
-		echo "middle,20";
+		return "middle,20";
 	} elseif ($n <= 5869) {
-		echo "northern,21";
+		return "northern,21";
 	} elseif ($n < 6027) {
-		echo "middle,21";
+		return "middle,21";
 	} elseif ($n <= 6045) {
-		echo "northern,22";
+		return "northern,22";
 	} elseif ($n < 6063) {
-		echo "middle,22";
+		return "middle,22";
 	} elseif ($n <= 6070) {
-		echo "northern,23";
+		return "northern,23";
 	} elseif ($n < 9369) {
-		echo "middle,23";
+		return "middle,23";
 	}
 	else
-		echo "northern,24";
+		return "northern,24";
 }
 
 function PS ($n) {
 	if ($n < 69) {
-		echo "middle,24";
+		return "middle,24";
 	} elseif ($n <= 423) {
-		echo "northern,25";
+		return "northern,25";
 	} elseif ($n < 648) {
-		echo "middle,25";
+		return "middle,25";
 	} elseif ($n <= 1300) {
-		echo "northern,26";
+		return "northern,26";
 	} elseif ($n < 2410) {
-		echo "middle,26";
+		return "middle,26";
 	} elseif ($n <= 3281) {
-		echo "northern,27";
+		return "northern,27";
 	} elseif ($n < 3511) {
-		echo "middle,27";
+		return "middle,27";
 	} elseif ($n <= 3517) {
-		echo "northern,28";
+		return "northern,28";
 	} elseif ($n < 3537) {
-		echo "middle,33";
+		return "middle,33";
 	} elseif ($n <= 3545) {
-		echo "northern,35";
+		return "northern,35";
 	} elseif ($n < 3554) {
-		echo "middle,34";
+		return "middle,34";
 	} elseif ($n <= 3556) {
-		echo "northern,36";
+		return "northern,36";
 	} elseif ($n < 3562) {
-		echo "middle,35";
+		return "middle,35";
 	} elseif ($n <= 3563) {
-		echo "northern,37";
+		return "northern,37";
 	} elseif ($n < 3569) {
-		echo "middle,36";
+		return "middle,36";
 	} elseif ($n < 3573) {
-		echo "northern,38";
+		return "northern,38";
 	} elseif ($n < 3609) {
-		echo "middle,37";
+		return "middle,37";
 	} elseif ($n <= 3613) {
-		echo "northern,39";
+		return "northern,39";
 	}
 	else
-		echo "middle,38";
+		return "middle,38";
 }
 
 function PT ($n) {
 	if ($n <= 67) {
-		echo "middle,38";
+		return "middle,38";
 	} elseif ($n < 217) {
-		echo "middle,39";
+		return "middle,39";
 	} elseif ($n <= 304) {
-		echo "northern,40";
+		return "northern,40";
 	} elseif ($n < 1258) {
-		echo "middle,40";
+		return "middle,40";
 	} elseif ($n <= 1419) {
-		echo "northern,41";
+		return "northern,41";
 	} elseif ($n < 1891) {
-		echo "middle,41";
+		return "middle,41";
 	}
 	else
-		echo "northern,42";
+		return "northern,42";
 }
 
 function Z ($n) {
 	if ($n < 120) {
-		echo "middle,28";
+		return "middle,28";
 	} elseif ($n <= 266) {
-		echo "northern,29";
+		return "northern,29";
 	} elseif ($n < 695) {
-		echo "middle,29";
+		return "middle,29";
 	} elseif ($n <= 798) {
-		echo "northern,30";
+		return "northern,30";
 	} elseif ($n <= 1201) {
-		echo "northern,31";
+		return "northern,31";
 	} elseif ($n < 2537) {
-		echo "middle,30";
+		return "middle,30";
 	} elseif ($n <= 3201) {
-		echo "northern,32";
+		return "northern,32";
 	} elseif ($n < 6611) {
-		echo "middle,31";
+		return "middle,31";
 	} elseif ($n <= 6621) {
-		echo "northern,33";
+		return "northern,33";
 	} elseif ($n < 8430) {
-		echo "middle,32";
+		return "middle,32";
 	}
 	else
-		echo "northern,34";
+		return "northern,34";
 }
 
 function ZA ($n) {
-	echo "northern,34";
+	return "northern,34";
 }
 
 ?>
