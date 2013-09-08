@@ -22,6 +22,8 @@ echo $output;
 
 $arr = explode(".", $output, 2);
 
+// *** TODO: PI NEEDS A SPECIAL TAG BECAUSE PHP IS STUPID.
+
 // Number after tag.
 $num = preg_replace("/[^0-9]/","",$arr[0]);
 
