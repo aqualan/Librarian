@@ -41,8 +41,8 @@ $shelf = preg_replace("/[^A-Z]/", "", $location_data);
 // Row number
 $rownum = preg_replace("/[^[0-9]/", "", $location_data);
 
-	
 echo $rownum;
 echo $shelf;
+echo $title;
 
 ?>
