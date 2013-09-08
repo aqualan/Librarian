@@ -20,15 +20,18 @@ $output = shell_exec($Book);
 
 echo $output;
 
-$arr = explode(".", $output, 2);
+$numtag_arr = explode(".", $output, 2);
 
 // *** TODO: PI NEEDS A SPECIAL TAG BECAUSE PHP IS STUPID.
 
 // Number after tag.
-$num = preg_replace("/[^0-9]/","",$arr[0]);
+$num = preg_replace("/[^0-9]/","",$numtag_arr[0]);
 
 // Item tag; e.g. PL/PT/etc.
-$tag = preg_replace("/[^A-Z]/","",$arr[0]);
+$tag = preg_replace("/[^A-Z]/","",$numtag_arr[0]);
+
+$title_arr = explode(",", $output, 3);
+$title = $title_arr[2];
 
 $location_data = $tag($num);
 
@@ -38,9 +41,11 @@ $shelf = preg_replace("/[^A-Z]/", "", $location_data);
 // Row number
 $rownum = preg_replace("/[^[0-9]/", "", $location_data);
 
+<<<<<<< HEAD
 	
-//echo $rownum;
-//echo $shelf;
+echo $rownum;
+echo $shelf;
+echo $title;
 
 if($output != ",N/A"){
 	header("Location: http://ec2-50-16-110-122.compute-1.amazonaws.com/foundbook.html");
