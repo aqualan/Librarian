@@ -1,5 +1,4 @@
-<?php
-// n is the second token number.
+<?php	
 
 function P ($n) {
 	if ($n <= 1) {
@@ -33,12 +32,12 @@ function PB ($n) {
 	echo "SOUTH,18";
 }
 
-function PB ($n) {
+function PC ($n) {
 	if ($n < 1074) {
 		echo "SOUTH,18";
 	} elseif ($n <= 2625) {
 		echo "SOUTH,17";
-	else
+	} else
 		echo "SOUTH,16";
 }
 function PD ($n) {
@@ -79,7 +78,7 @@ function PJ ($n) {
 		echo "SOUTH,6";
 }
 
-function PI ($n) {
+function PII ($n) {
 	echo "SOUTH,1";
 }
 
@@ -143,8 +142,8 @@ function PQ ($n) {
 		echo "NORTH,8"; 
 	} elseif ($n <= 1812) {
 		echo "NORTH,9";
-	} elseif ($n <= {
-		echo "MIDDLE,8"
+	} elseif ($n <= 1912) {
+		echo "MIDDLE,8";
 	} elseif ($n <= 2391) {
 		echo "MIDDLE,9";
 	} elseif ($n <= 2603) {
@@ -301,6 +300,7 @@ function Z ($n) {
 }
 
 function ZA ($n) {
-	echo "NORTH,34";}
+	echo "NORTH,34";
 }
+
 ?>
