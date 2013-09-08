@@ -41,3 +41,7 @@ location=$location_info
 
 # Echo result for return.
 echo $callNum,$location
+
+title=$(wget -qO- $1 | grep '<h1 class="recordtitle">' | sed 's|>|> |g' | sed 's|<| <|g' | sed -e 's/^.*h1 class="recordtitle"> //g;s/ *$//g' | sed 's|</h1>||g')
+
+echo "The title is:" $title
