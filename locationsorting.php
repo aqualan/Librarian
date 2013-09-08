@@ -2,305 +2,305 @@
 
 function P ($n) {
 	if ($n <= 1) {
-		return "southern,28";
+		return "in the southern bookshelves, 28 rows down.";
 	} elseif ($n <= 25) {
-		return "southern,27";
+		return "in the southern bookshelves, 27 rows down.";
 	} elseif ($n <= 51) {
-		return "southern,26";
+		return "in the southern bookshelves, 26 rows down.";
 	} elseif ($n <= 105) {
-		return "southern,25";
+		return "in the southern bookshelves, 25 rows down.";
 	} elseif ($n <= 211) {
-		return "southern,24";
+		return "in the southern bookshelves, 24 rows down.";
 	}
 	else
-		return "southern,23";
+		return "in the southern bookshelves, 23 rows down.";
 }
 
 function PA ($n) {
 	if ($n <= 56) {
-		return "southern,22"; 
+		return "in the southern bookshelves, 22 rows down."; 
 	} elseif ($n <= 3539) {
-		return "southern,21";
+		return "in the southern bookshelves, 21 rows down.";
 	} elseif ($n <= 5000) {
-		return "southern,20";
+		return "in the southern bookshelves, 20 rows down.";
 	}
 	else
-		return "southern,19";
+		return "in the southern bookshelves, 19 rows down.";
 }
 
 function PB ($n) {
-	return "southern,18";
+	return "in the southern bookshelves, 18 rows down.";
 }
 
 function PC ($n) {
 	if ($n < 1074) {
-		return "southern,18";
+		return "in the southern bookshelves, 18 rows down.";
 	} elseif ($n <= 2625) {
-		return "southern,17";
+		return "in the southern bookshelves, 17 rows down.";
 	} else
-		return "southern,16";
+		return "in the southern bookshelves, 16 rows down.";
 }
 function PD ($n) {
-	return "southern,16";
+	return "in the southern bookshelves, 16 rows down.";
 }
 
 function PE ($n) {
-	return "southern,15";
+	return "in the southern bookshelves, 15 rows down.";
 }
 
 function PF ($n) {
-	return "southern,14";
+	return "in the southern bookshelves, 14 rows down.";
 }
 
 function PG ($n) {
 	if ($n <= 2947) {
-		return "southern,13"; 
+		return "in the southern bookshelves, 13 rows down."; 
 	} elseif ($n <= 3462) {
-		return "southern,12";
+		return "in the southern bookshelves, 12 rows down.";
 	} elseif ($n <= 3492) {
-		return "southern,11";
+		return "in the southern bookshelves, 11 rows down.";
 	}
 	else
-		return "southern,10";
+		return "in the southern bookshelves, 10 rows down.";
 }
 
 function PJ ($n) {
 	if ($n <= 3701) {
-		return "southern,10";
+		return "in the southern bookshelves, 10 rows down.";
 	} elseif ($n < 5024) {
-		return "southern,9";
+		return "in the southern bookshelves, 9 rows down.";
 	} elseif ($n < 5055) {
-		return "southern,8";
+		return "in the southern bookshelves, 8 rows down.";
 	} elseif ($n < 7814) {
-		return "southern,7";
+		return "in the southern bookshelves, 7 rows down.";
 	}
 	else
-		return "southern,6";
+		return "in the southern bookshelves, 6 rows down.";
 }
 
 function PII ($n) {
-	return "southern,1";
+	return "in the southern bookshelves, 1 row down.";
 }
 
 function PK ($n) {
 	if ($n <= 1730) {
-		return "southern,5"; 
+		return "in the southern bookshelves, 5 rows down."; 
 	} elseif ($n <= 2165) {
-		return "southern,4";
+		return "in the southern bookshelves, 4 rows down.";
 	} elseif ($n <= 2418) {
-		return "southern,3";
+		return "in the southern bookshelves, 3 rows down.";
 	} elseif ($n <= 3621) {
-		return "southern,2";
+		return "in the southern bookshelves, 2 rows down.";
 	} elseif ($n <= 5013) {
-		return "middle,1";
+		return "in the middle bookshelves, 1 row down.";
 	}
 	else
-		return "middle,2";
+		return "in the middle bookshelves, 2 rows down.";
 }
 
 function PL ($n) {
 	if ($n <= 2442) {
-		return "northern,2"; 
+		return "in the northern bookshelves, 2 rows down."; 
 	} elseif ($n <= 4758) {
-		return "middle,2";
+		return "in the middle bookshelves, 2 rows down.";
 	}
 	else
-		return "northern,3";
+		return "in the northern bookshelves, 3 rows down.";
 }
 
 function PM ($n) {
 	if ($n <= 6301) {
-		return "middle,3";
+		return "in the middle bookshelves, 3 rows down.";
 	} else 
-		return "northern,3";
+		return "in the northern bookshelves, 3 rows down.";
 }
 
 function PN ($n) {
 	if ($n <= 80) {
-		return "northern,4";
+		return "in the northern bookshelves, 4 rows down.";
 	} elseif ($n <= 147) {
-		return "middle,4";
+		return "in the middle bookshelves, 4 rows down.";
 	} elseif ($n <= 1849) {
-		return "northern,5";
+		return "in the northern bookshelves, 5 rows down.";
 	} elseif ($n <= 1991) {
-		return "middle,5";
+		return "in the middle bookshelves, 5 rows down.";
 	} elseif ($n <= 1998) {
-		return "northern,6";
+		return "in the northern bookshelves, 6 rows down.";
 	} elseif ($n <= 2919) {
-		return "middle,6";
+		return "in the middle bookshelves, 6 rows down.";
 	} elseif ($n <= 4105) {
-		return "northern,7";
+		return "in the northern bookshelves, 7 rows down.";
 	} elseif ($n <= 6149) {
-		return "northern,8";
+		return "in the northern bookshelves, 8 rows down.";
 	}
 	else
-		return "middle,7";
+		return "in the middle bookshelves, 7 rows down.";
 }
 
 function PQ ($n) {
 	if ($n < 1812) {
-		return "northern,8"; 
+		return "in the northern bookshelves, 8 rows down."; 
 	} elseif ($n <= 1812) {
-		return "northern,9";
+		return "in the northern bookshelves, 9 rows down.";
 	} elseif ($n <= 1912) {
-		return "middle,8";
+		return "in the middle bookshelves, 8 rows down.";
 	} elseif ($n <= 2391) {
-		return "middle,9";
+		return "in the middle bookshelves, 9 rows down.";
 	} elseif ($n <= 2603) {
-		return "northern,10";
+		return "in the northern bookshelves, 10 rows down.";
 	} elseif ($n <= 2662) {
-		return "middle,10";
+		return "in the middle bookshelves, 10 rows down.";
 	} elseif ($n <= 2673) {
-		return "northern,11";
+		return "in the northern bookshelves, 11 rows down.";
 	} elseif ($n <= 4098) {
-		return "middle,11";
+		return "in the middle bookshelves, 11 rows down.";
 	} elseif ($n <= 4332) {
-		return "northern,12";
+		return "in the northern bookshelves, 12 rows down.";
 	} elseif ($n <= 4841) {
-		return "middle,12";
+		return "in the middle bookshelves, 12 rows down.";
 	} elseif ($n <= 4901) {
-		return "northern,13";
+		return "in the northern bookshelves, 13 rows down.";
 	} elseif ($n <= 6436) {
-		return "middle,13";
+		return "in the middle bookshelves, 13 rows down.";
 	} elseif ($n <= 6603) {
-		return "northern,14";
+		return "in the northern bookshelves, 14 rows down.";
 	} elseif ($n < 7082) {
-		return "middle,14";
+		return "in the middle bookshelves, 14 rows down.";
 	} elseif ($n < 7298) {
-		return "northern,15";
+		return "in the northern bookshelves, 15 rows down.";
 	} elseif ($n < 7798) {
-		return "middle,15";
+		return "in the middle bookshelves, 15 rows down.";
 	} elseif ($n <= 9098) {
-		return "northern,16";
+		return "in the northern bookshelves, 16 rows down.";
 	}
 	else
-		return "middle,16";
+		return "in the middle bookshelves, 16 rows down.";
 }
 
 function PR ($n) {
 	if ($n < 275) {
-		return "northern,17";
+		return "in the northern bookshelves, 17 rows down.";
 	} elseif ($n < 730) {
-		return "middle,16";
+		return "in the middle bookshelves, 16 rows down.";
 	} elseif ($n < 1119) {
-		return "middle,17";
+		return "in the middle bookshelves, 17 rows down.";
 	} elseif ($n <= 1309) {
-		return "northern,18";
+		return "in the northern bookshelves, 18 rows down.";
 	} elseif ($n < 2935) {
-		return "middle,18";
+		return "in the middle bookshelves, 18 rows down.";
 	} elseif ($n <= 3346) {
-		return "northern,19";
+		return "in the northern bookshelves, 19 rows down.";
 	} elseif ($n < 4300) {
-		return "middle,19";
+		return "in the middle bookshelves, 19 rows down.";
 	} elseif ($n <= 4984) {
-		return "northern,20";
+		return "in the northern bookshelves, 20 rows down.";
 	} elseif ($n < 5403) {
-		return "middle,20";
+		return "in the middle bookshelves, 20 rows down.";
 	} elseif ($n <= 5869) {
-		return "northern,21";
+		return "in the northern bookshelves, 21 rows down.";
 	} elseif ($n < 6027) {
-		return "middle,21";
+		return "in the middle bookshelves, 21 rows down.";
 	} elseif ($n <= 6045) {
-		return "northern,22";
+		return "in the northern bookshelves, 22 rows down.";
 	} elseif ($n < 6063) {
-		return "middle,22";
+		return "in the middle bookshelves, 22 rows down.";
 	} elseif ($n <= 6070) {
-		return "northern,23";
+		return "in the northern bookshelves, 23 rows down.";
 	} elseif ($n < 9369) {
-		return "middle,23";
+		return "in the middle bookshelves, 23 rows down.";
 	}
 	else
-		return "northern,24";
+		return "in the northern bookshelves, 24 rows down.";
 }
 
 function PS ($n) {
 	if ($n < 69) {
-		return "middle,24";
+		return "in the middle bookshelves, 24 rows down.";
 	} elseif ($n <= 423) {
-		return "northern,25";
+		return "in the northern bookshelves, 25 rows down.";
 	} elseif ($n < 648) {
-		return "middle,25";
+		return "in the middle bookshelves, 25 rows down.";
 	} elseif ($n <= 1300) {
-		return "northern,26";
+		return "in the northern bookshelves, 26 rows down.";
 	} elseif ($n < 2410) {
-		return "middle,26";
+		return "in the middle bookshelves, 26 rows down.";
 	} elseif ($n <= 3281) {
-		return "northern,27";
+		return "in the northern bookshelves, 27 rows down.";
 	} elseif ($n < 3511) {
-		return "middle,27";
+		return "in the middle bookshelves, 27 rows down.";
 	} elseif ($n <= 3517) {
-		return "northern,28";
+		return "in the northern bookshelves, 28 rows down.";
 	} elseif ($n < 3537) {
-		return "middle,33";
+		return "in the middle bookshelves, 33 rows down.";
 	} elseif ($n <= 3545) {
-		return "northern,35";
+		return "in the northern bookshelves, 35 rows down.";
 	} elseif ($n < 3554) {
-		return "middle,34";
+		return "in the middle bookshelves, 34 rows down.";
 	} elseif ($n <= 3556) {
-		return "northern,36";
+		return "in the northern bookshelves, 36 rows down.";
 	} elseif ($n < 3562) {
-		return "middle,35";
+		return "in the middle bookshelves, 35 rows down.";
 	} elseif ($n <= 3563) {
-		return "northern,37";
+		return "in the northern bookshelves, 37 rows down.";
 	} elseif ($n < 3569) {
-		return "middle,36";
+		return "in the middle bookshelves, 36 rows down.";
 	} elseif ($n < 3573) {
-		return "northern,38";
+		return "in the northern bookshelves, 38 rows down.";
 	} elseif ($n < 3609) {
-		return "middle,37";
+		return "in the middle bookshelves, 37 rows down.";
 	} elseif ($n <= 3613) {
-		return "northern,39";
+		return "in the northern bookshelves, 39 rows down.";
 	}
 	else
-		return "middle,38";
+		return "in the middle bookshelves, 38 rows down.";
 }
 
 function PT ($n) {
 	if ($n <= 67) {
-		return "middle,38";
+		return "in the middle bookshelves, 38 rows down.";
 	} elseif ($n < 217) {
-		return "middle,39";
+		return "in the middle bookshelves, 39 rows down.";
 	} elseif ($n <= 304) {
-		return "northern,40";
+		return "in the northern bookshelves, 40 rows down.";
 	} elseif ($n < 1258) {
-		return "middle,40";
+		return "in the middle bookshelves, 40 rows down.";
 	} elseif ($n <= 1419) {
-		return "northern,41";
+		return "in the northern bookshelves, 41 rows down.";
 	} elseif ($n < 1891) {
-		return "middle,41";
+		return "in the middle bookshelves, 41 rows down.";
 	}
 	else
-		return "northern,42";
+		return "in the northern bookshelves, 42 rows down.";
 }
 
 function Z ($n) {
 	if ($n < 120) {
-		return "middle,28";
+		return "in the middle bookshelves, 28 rows down.";
 	} elseif ($n <= 266) {
-		return "northern,29";
+		return "in the northern bookshelves, 29 rows down.";
 	} elseif ($n < 695) {
-		return "middle,29";
+		return "in the middle bookshelves, 29 rows down.";
 	} elseif ($n <= 798) {
-		return "northern,30";
+		return "in the northern bookshelves, 30 rows down.";
 	} elseif ($n <= 1201) {
-		return "northern,31";
+		return "in the northern bookshelves, 31 rows down.";
 	} elseif ($n < 2537) {
-		return "middle,30";
+		return "in the middle bookshelves, 30 rows down.";
 	} elseif ($n <= 3201) {
-		return "northern,32";
+		return "in the northern bookshelves, 32 rows down.";
 	} elseif ($n < 6611) {
-		return "middle,31";
+		return "in the middle bookshelves, 31 rows down.";
 	} elseif ($n <= 6621) {
-		return "northern,33";
+		return "in the northern bookshelves, 33 rows down.";
 	} elseif ($n < 8430) {
-		return "middle,32";
+		return "in the middle bookshelves, 32 rows down.";
 	}
 	else
-		return "northern,34";
+		return "in the northern bookshelves, 34 rows down.";
 }
 
 function ZA ($n) {
-	return "northern,34";
+	return "in the northern bookshelves, 34 rows down.";
 }
 
 ?>
