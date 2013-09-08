@@ -39,7 +39,14 @@ $shelf = preg_replace("/[^A-Z]/", "", $location_data);
 $rownum = preg_replace("/[^[0-9]/", "", $location_data);
 
 	
-echo $rownum;
-echo $shelf;
+//echo $rownum;
+//echo $shelf;
+
+if($output != ",N/A"){
+	header("Location: http://ec2-50-16-110-122.compute-1.amazonaws.com/foundbook.html");
+{elseif($output == ",N/A"){
+	header("Location: http://ec2-50-16-110-122.compute-1.amazonaws.com/booknotfound.html");
+} else
+	header("Location: http://ec2-50-16-110-122.compute-1.amazonaws.com/bookunavailable.html");
 
 ?>
