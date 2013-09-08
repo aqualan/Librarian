@@ -37,7 +37,7 @@ function PC ($n) {
 		echo "southern,18";
 	} elseif ($n <= 2625) {
 		echo "southern,17";
-	else
+	} else
 		echo "southern,16";
 }
 function PD ($n) {
