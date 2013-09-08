@@ -2,305 +2,305 @@
 
 function P ($n) {
 	if ($n <= 1) {
-		echo "southern,28";
+		return "in the southern bookshelves, 28 rows down.";
 	} elseif ($n <= 25) {
-		echo "southern,27";
+		return "in the southern bookshelves, 27 rows down.";
 	} elseif ($n <= 51) {
-		echo "southern,26";
+		return "in the southern bookshelves, 26 rows down.";
 	} elseif ($n <= 105) {
-		echo "southern,25";
+		return "in the southern bookshelves, 25 rows down.";
 	} elseif ($n <= 211) {
-		echo "southern,24";
+		return "in the southern bookshelves, 24 rows down.";
 	}
 	else
-		echo "southern,23";
+		return "in the southern bookshelves, 23 rows down.";
 }
 
 function PA ($n) {
 	if ($n <= 56) {
-		echo "southern,22"; 
+		return "in the southern bookshelves, 22 rows down."; 
 	} elseif ($n <= 3539) {
-		echo "southern,21";
+		return "in the southern bookshelves, 21 rows down.";
 	} elseif ($n <= 5000) {
-		echo "southern,20";
+		return "in the southern bookshelves, 20 rows down.";
 	}
 	else
-		echo "southern,19";
+		return "in the southern bookshelves, 19 rows down.";
 }
 
 function PB ($n) {
-	echo "southern,18";
+	return "in the southern bookshelves, 18 rows down.";
 }
 
 function PC ($n) {
 	if ($n < 1074) {
-		echo "southern,18";
+		return "in the southern bookshelves, 18 rows down.";
 	} elseif ($n <= 2625) {
-		echo "southern,17";
+		return "in the southern bookshelves, 17 rows down.";
 	} else
-		echo "southern,16";
+		return "in the southern bookshelves, 16 rows down.";
 }
 function PD ($n) {
-	echo "southern,16";
+	return "in the southern bookshelves, 16 rows down.";
 }
 
 function PE ($n) {
-	echo "southern,15";
+	return "in the southern bookshelves, 15 rows down.";
 }
 
 function PF ($n) {
-	echo "southern,14";
+	return "in the southern bookshelves, 14 rows down.";
 }
 
 function PG ($n) {
 	if ($n <= 2947) {
-		echo "southern,13"; 
+		return "in the southern bookshelves, 13 rows down."; 
 	} elseif ($n <= 3462) {
-		echo "southern,12";
+		return "in the southern bookshelves, 12 rows down.";
 	} elseif ($n <= 3492) {
-		echo "southern,11";
+		return "in the southern bookshelves, 11 rows down.";
 	}
 	else
-		echo "southern,10";
+		return "in the southern bookshelves, 10 rows down.";
 }
 
 function PJ ($n) {
 	if ($n <= 3701) {
-		echo "southern,10";
+		return "in the southern bookshelves, 10 rows down.";
 	} elseif ($n < 5024) {
-		echo "southern,9";
+		return "in the southern bookshelves, 9 rows down.";
 	} elseif ($n < 5055) {
-		echo "southern,8";
+		return "in the southern bookshelves, 8 rows down.";
 	} elseif ($n < 7814) {
-		echo "southern,7";
+		return "in the southern bookshelves, 7 rows down.";
 	}
 	else
-		echo "southern,6";
+		return "in the southern bookshelves, 6 rows down.";
 }
 
 function PII ($n) {
-	echo "southern,1";
+	return "in the southern bookshelves, 1 row down.";
 }
 
 function PK ($n) {
 	if ($n <= 1730) {
-		echo "southern,5"; 
+		return "in the southern bookshelves, 5 rows down."; 
 	} elseif ($n <= 2165) {
-		echo "southern,4";
+		return "in the southern bookshelves, 4 rows down.";
 	} elseif ($n <= 2418) {
-		echo "southern,3";
+		return "in the southern bookshelves, 3 rows down.";
 	} elseif ($n <= 3621) {
-		echo "southern,2";
+		return "in the southern bookshelves, 2 rows down.";
 	} elseif ($n <= 5013) {
-		echo "middle,1";
+		return "in the middle bookshelves, 1 row down.";
 	}
 	else
-		echo "middle,2";
+		return "in the middle bookshelves, 2 rows down.";
 }
 
 function PL ($n) {
 	if ($n <= 2442) {
-		echo "northern,2"; 
+		return "in the northern bookshelves, 2 rows down."; 
 	} elseif ($n <= 4758) {
-		echo "middle,2";
+		return "in the middle bookshelves, 2 rows down.";
 	}
 	else
-		echo "northern,3";
+		return "in the northern bookshelves, 3 rows down.";
 }
 
 function PM ($n) {
 	if ($n <= 6301) {
-		echo "middle,3";
+		return "in the middle bookshelves, 3 rows down.";
 	} else 
-		echo "northern,3";
+		return "in the northern bookshelves, 3 rows down.";
 }
 
 function PN ($n) {
 	if ($n <= 80) {
-		echo "northern,4";
+		return "in the northern bookshelves, 4 rows down.";
 	} elseif ($n <= 147) {
-		echo "middle,4";
+		return "in the middle bookshelves, 4 rows down.";
 	} elseif ($n <= 1849) {
-		echo "northern,5";
+		return "in the northern bookshelves, 5 rows down.";
 	} elseif ($n <= 1991) {
-		echo "middle,5";
+		return "in the middle bookshelves, 5 rows down.";
 	} elseif ($n <= 1998) {
-		echo "northern,6";
+		return "in the northern bookshelves, 6 rows down.";
 	} elseif ($n <= 2919) {
-		echo "middle,6";
+		return "in the middle bookshelves, 6 rows down.";
 	} elseif ($n <= 4105) {
-		echo "northern,7";
+		return "in the northern bookshelves, 7 rows down.";
 	} elseif ($n <= 6149) {
-		echo "northern,8";
+		return "in the northern bookshelves, 8 rows down.";
 	}
 	else
-		echo "middle,7";
+		return "in the middle bookshelves, 7 rows down.";
 }
 
 function PQ ($n) {
 	if ($n < 1812) {
-		echo "northern,8"; 
+		return "in the northern bookshelves, 8 rows down."; 
 	} elseif ($n <= 1812) {
-		echo "northern,9";
+		return "in the northern bookshelves, 9 rows down.";
 	} elseif ($n <= 1912) {
-		echo "middle,8";
+		return "in the middle bookshelves, 8 rows down.";
 	} elseif ($n <= 2391) {
-		echo "middle,9";
+		return "in the middle bookshelves, 9 rows down.";
 	} elseif ($n <= 2603) {
-		echo "northern,10";
+		return "in the northern bookshelves, 10 rows down.";
 	} elseif ($n <= 2662) {
-		echo "middle,10";
+		return "in the middle bookshelves, 10 rows down.";
 	} elseif ($n <= 2673) {
-		echo "northern,11";
+		return "in the northern bookshelves, 11 rows down.";
 	} elseif ($n <= 4098) {
-		echo "middle,11";
+		return "in the middle bookshelves, 11 rows down.";
 	} elseif ($n <= 4332) {
-		echo "northern,12";
+		return "in the northern bookshelves, 12 rows down.";
 	} elseif ($n <= 4841) {
-		echo "middle,12";
+		return "in the middle bookshelves, 12 rows down.";
 	} elseif ($n <= 4901) {
-		echo "northern,13";
+		return "in the northern bookshelves, 13 rows down.";
 	} elseif ($n <= 6436) {
-		echo "middle,13";
+		return "in the middle bookshelves, 13 rows down.";
 	} elseif ($n <= 6603) {
-		echo "northern,14";
+		return "in the northern bookshelves, 14 rows down.";
 	} elseif ($n < 7082) {
-		echo "middle,14";
+		return "in the middle bookshelves, 14 rows down.";
 	} elseif ($n < 7298) {
-		echo "northern,15";
+		return "in the northern bookshelves, 15 rows down.";
 	} elseif ($n < 7798) {
-		echo "middle,15";
+		return "in the middle bookshelves, 15 rows down.";
 	} elseif ($n <= 9098) {
-		echo "northern,16";
+		return "in the northern bookshelves, 16 rows down.";
 	}
 	else
-		echo "middle,16";
+		return "in the middle bookshelves, 16 rows down.";
 }
 
 function PR ($n) {
 	if ($n < 275) {
-		echo "northern,17";
+		return "in the northern bookshelves, 17 rows down.";
 	} elseif ($n < 730) {
-		echo "middle,16";
+		return "in the middle bookshelves, 16 rows down.";
 	} elseif ($n < 1119) {
-		echo "middle,17";
+		return "in the middle bookshelves, 17 rows down.";
 	} elseif ($n <= 1309) {
-		echo "northern,18";
+		return "in the northern bookshelves, 18 rows down.";
 	} elseif ($n < 2935) {
-		echo "middle,18";
+		return "in the middle bookshelves, 18 rows down.";
 	} elseif ($n <= 3346) {
-		echo "northern,19";
+		return "in the northern bookshelves, 19 rows down.";
 	} elseif ($n < 4300) {
-		echo "middle,19";
+		return "in the middle bookshelves, 19 rows down.";
 	} elseif ($n <= 4984) {
-		echo "northern,20";
+		return "in the northern bookshelves, 20 rows down.";
 	} elseif ($n < 5403) {
-		echo "middle,20";
+		return "in the middle bookshelves, 20 rows down.";
 	} elseif ($n <= 5869) {
-		echo "northern,21";
+		return "in the northern bookshelves, 21 rows down.";
 	} elseif ($n < 6027) {
-		echo "middle,21";
+		return "in the middle bookshelves, 21 rows down.";
 	} elseif ($n <= 6045) {
-		echo "northern,22";
+		return "in the northern bookshelves, 22 rows down.";
 	} elseif ($n < 6063) {
-		echo "middle,22";
+		return "in the middle bookshelves, 22 rows down.";
 	} elseif ($n <= 6070) {
-		echo "northern,23";
+		return "in the northern bookshelves, 23 rows down.";
 	} elseif ($n < 9369) {
-		echo "middle,23";
+		return "in the middle bookshelves, 23 rows down.";
 	}
 	else
-		echo "northern,24";
+		return "in the northern bookshelves, 24 rows down.";
 }
 
 function PS ($n) {
 	if ($n < 69) {
-		echo "middle,24";
+		return "in the middle bookshelves, 24 rows down.";
 	} elseif ($n <= 423) {
-		echo "northern,25";
+		return "in the northern bookshelves, 25 rows down.";
 	} elseif ($n < 648) {
-		echo "middle,25";
+		return "in the middle bookshelves, 25 rows down.";
 	} elseif ($n <= 1300) {
-		echo "northern,26";
+		return "in the northern bookshelves, 26 rows down.";
 	} elseif ($n < 2410) {
-		echo "middle,26";
+		return "in the middle bookshelves, 26 rows down.";
 	} elseif ($n <= 3281) {
-		echo "northern,27";
+		return "in the northern bookshelves, 27 rows down.";
 	} elseif ($n < 3511) {
-		echo "middle,27";
+		return "in the middle bookshelves, 27 rows down.";
 	} elseif ($n <= 3517) {
-		echo "northern,28";
+		return "in the northern bookshelves, 28 rows down.";
 	} elseif ($n < 3537) {
-		echo "middle,33";
+		return "in the middle bookshelves, 33 rows down.";
 	} elseif ($n <= 3545) {
-		echo "northern,35";
+		return "in the northern bookshelves, 35 rows down.";
 	} elseif ($n < 3554) {
-		echo "middle,34";
+		return "in the middle bookshelves, 34 rows down.";
 	} elseif ($n <= 3556) {
-		echo "northern,36";
+		return "in the northern bookshelves, 36 rows down.";
 	} elseif ($n < 3562) {
-		echo "middle,35";
+		return "in the middle bookshelves, 35 rows down.";
 	} elseif ($n <= 3563) {
-		echo "northern,37";
+		return "in the northern bookshelves, 37 rows down.";
 	} elseif ($n < 3569) {
-		echo "middle,36";
+		return "in the middle bookshelves, 36 rows down.";
 	} elseif ($n < 3573) {
-		echo "northern,38";
+		return "in the northern bookshelves, 38 rows down.";
 	} elseif ($n < 3609) {
-		echo "middle,37";
+		return "in the middle bookshelves, 37 rows down.";
 	} elseif ($n <= 3613) {
-		echo "northern,39";
+		return "in the northern bookshelves, 39 rows down.";
 	}
 	else
-		echo "middle,38";
+		return "in the middle bookshelves, 38 rows down.";
 }
 
 function PT ($n) {
 	if ($n <= 67) {
-		echo "middle,38";
+		return "in the middle bookshelves, 38 rows down.";
 	} elseif ($n < 217) {
-		echo "middle,39";
+		return "in the middle bookshelves, 39 rows down.";
 	} elseif ($n <= 304) {
-		echo "northern,40";
+		return "in the northern bookshelves, 40 rows down.";
 	} elseif ($n < 1258) {
-		echo "middle,40";
+		return "in the middle bookshelves, 40 rows down.";
 	} elseif ($n <= 1419) {
-		echo "northern,41";
+		return "in the northern bookshelves, 41 rows down.";
 	} elseif ($n < 1891) {
-		echo "middle,41";
+		return "in the middle bookshelves, 41 rows down.";
 	}
 	else
-		echo "northern,42";
+		return "in the northern bookshelves, 42 rows down.";
 }
 
 function Z ($n) {
 	if ($n < 120) {
-		echo "middle,28";
+		return "in the middle bookshelves, 28 rows down.";
 	} elseif ($n <= 266) {
-		echo "northern,29";
+		return "in the northern bookshelves, 29 rows down.";
 	} elseif ($n < 695) {
-		echo "middle,29";
+		return "in the middle bookshelves, 29 rows down.";
 	} elseif ($n <= 798) {
-		echo "northern,30";
+		return "in the northern bookshelves, 30 rows down.";
 	} elseif ($n <= 1201) {
-		echo "northern,31";
+		return "in the northern bookshelves, 31 rows down.";
 	} elseif ($n < 2537) {
-		echo "middle,30";
+		return "in the middle bookshelves, 30 rows down.";
 	} elseif ($n <= 3201) {
-		echo "northern,32";
+		return "in the northern bookshelves, 32 rows down.";
 	} elseif ($n < 6611) {
-		echo "middle,31";
+		return "in the middle bookshelves, 31 rows down.";
 	} elseif ($n <= 6621) {
-		echo "northern,33";
+		return "in the northern bookshelves, 33 rows down.";
 	} elseif ($n < 8430) {
-		echo "middle,32";
+		return "in the middle bookshelves, 32 rows down.";
 	}
 	else
-		echo "northern,34";
+		return "in the northern bookshelves, 34 rows down.";
 }
 
 function ZA ($n) {
-	echo "northern,34";
+	return "in the northern bookshelves, 34 rows down.";
 }
 
 ?>
